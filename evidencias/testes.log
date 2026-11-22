@@ -1,0 +1,37 @@
+
+> desafio_teste_domino@1.0.0 coverage
+> node --test --experimental-test-coverage
+
+✔ CT01 - conjunto duplo seis tem 28 pecas diferentes (0.641708ms)
+✔ CT02 - distribui sete pecas por jogador e quatorze no monte (0.130375ms)
+✔ CT03 - baralho invalido ou repetido e rejeitado (0.179458ms)
+✔ CT04 - primeira jogada reduz mao, cria mesa e troca turno (0.099625ms)
+✔ CT05 - inverte peca ao encaixar na ponta esquerda (0.083458ms)
+✔ CT06 - rejeita peca sem encaixe sem alterar o estado (0.097917ms)
+✔ CT07 - rejeita turno, indice e lado invalidos (0.378084ms)
+✔ CT08 - nao compra nem passa quando existe jogada (0.124583ms)
+✔ CT09 - compra obrigatoria sem encaixe mantem turno e conserva pecas (0.102209ms)
+✔ CT10 - partidas deterministicas conservam as 28 pecas e encerram (2.322584ms)
+✔ CT11 - esvaziar a mao vence a partida (0.154875ms)
+✔ CT12 - bloqueio compara soma dos pontos nas maos restantes (4.174083ms)
+✔ CT13 - copia baralho e retorna consultas defensivas (0.059ms)
+✔ CT14 - inverte peca ao encaixar na ponta direita (0.083875ms)
+✔ CT15 - compras sucessivas sao permitidas e mantem o turno (0.109667ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 47.314292
+ℹ start of coverage report
+ℹ -----------------------------------------------------------
+ℹ file       | line % | branch % | funcs % | uncovered lines
+ℹ -----------------------------------------------------------
+ℹ src        |        |          |         | 
+ℹ  domino.js | 100.00 |    96.88 |  100.00 | 
+ℹ -----------------------------------------------------------
+ℹ all files  | 100.00 |    96.88 |  100.00 | 
+ℹ -----------------------------------------------------------
+ℹ end of coverage report
